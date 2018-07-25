@@ -3,7 +3,7 @@ package com.johnbryce.lesson.hw15;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class main {
+public class HW15 {
 
 	public static void main(String[] args) {
 		System.out.println("Insert String");
@@ -15,7 +15,8 @@ public class main {
 			list.add(input);
 			input = scanner.nextLine();
 		}
-			System.out.println(list.toString());	
+		scanner.close();
+			System.out.println("The Strings recieved by the user are: " + list.toString());	
 	}
 
 }
